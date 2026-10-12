@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { background: #17181f; color: #e5e7eb; }
+.chat-bg {
+  background-color: #0e1621;
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(100,181,239,.06), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(217,70,143,.06), transparent 40%);
+}
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,.12); border-radius: 3px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
